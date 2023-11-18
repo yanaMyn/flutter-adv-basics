@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:adv_basics/questions_summary/questions_summary.dart';
 
 class ResultsScreen extends StatelessWidget {
-  const ResultsScreen(
-      {super.key, required this.chosenAnswer, required this.retryTapped});
+  const ResultsScreen({
+    super.key,
+    required this.chosenAnswer,
+    required this.retryTapped,
+  });
 
   final List<String> chosenAnswer;
 
